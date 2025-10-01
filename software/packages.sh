@@ -24,4 +24,9 @@ flatpak_packages=(
   "fr.handbrake.ghb"
   "org.videolan.VLC"
   "com.todoist.Todoist"
+  "com.discordapp.Discord"
+)
+
+custom_packages=(
+  "starship"
 )

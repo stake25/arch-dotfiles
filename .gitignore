@@ -1,0 +1,13 @@
+*
+!*/
+
+!wezterm/**
+!install/**
+!nvim/**
+!profile/**
+!scripts/**
+!software/**
+!zshrc/**
+!LICENSE
+!README.md
+!.gitignore

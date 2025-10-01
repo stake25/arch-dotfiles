@@ -14,3 +14,9 @@ done
 
 # install flatpaks
 flatpak install -y --noninteractive flathub "${flatpak_packages[@]}"
+
+# install custom packages
+for pkg in "${custom_packages[@]}"; do
+  echo "install $pkg"
+  ~/.config/software/custom/$pkg.sh
+done
