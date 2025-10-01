@@ -1,0 +1,9 @@
+#!/bin/bash
+
+dir="$HOME/.config/profile"
+
+if [[ -d "$dir" && -r "$dir" && -x "$dir" ]]; then
+    for file in "$dir"/*; do
+        [[ -f "$file" && -r "$file" ]] && . "$file"
+    done
+fi
