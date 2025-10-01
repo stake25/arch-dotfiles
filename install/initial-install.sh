@@ -1,8 +1,13 @@
 #!/bin/bash
 
+# move to the starting point
 cd ~
 
+# install git
+sudo pacman -S --needed git base-devel
+
 # clone the project dotfiles into the config directory
+mv .config .config.bak
 git clone https://github.com/stake25/arch-dotfiles.git .config/
 
 # install yay
@@ -15,5 +20,5 @@ git clone https://github.com/stake25/arch-dotfiles.git .config/
 cp ~/.config/zshrc/zshrc ~/.zshrc
 
 # change shell
-chsh /bin/zsh
+chsh -s /bin/zsh
 echo "Restart your terminal session to see the changes"
