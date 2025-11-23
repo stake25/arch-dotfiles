@@ -10,11 +10,17 @@ pacman_packages=(
   "lazygit"
   "lazydocker"
   "eza"
+  "ardour"
+  "libfdk-aac"
+  "syncthing"
+  "dosfstools"
+  "calibre"
 )
 
 yay_packages=(
   "lazyssh-bin"
   "vscodium-bin"
+  "neural-amp-modeler-lv2-git"
 )
 
 flatpak_packages=(
@@ -24,4 +30,10 @@ flatpak_packages=(
   "fr.handbrake.ghb"
   "org.videolan.VLC"
   "com.todoist.Todoist"
+  "org.signal.Signal"
+  "com.github.IsmaelMartinez.teams_for_linux"
+  "md.obsidian.Obsidian"
+  "com.heroicgameslauncher.hgl"
+  "com.bitwarden.desktop"
+  "us.zoom.Zoom"
 )

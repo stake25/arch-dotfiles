@@ -13,8 +13,6 @@ autoload -Uz compinit
 compinit
 # End of lines added by compinstall
 
-# Needed ENV variables
-EDITOR="nvim"
-
 # Path Additions
 export PATH="$HOME/.config/scripts/:$PATH"
+export PATH="$HOME/.bin/:$PATH"
