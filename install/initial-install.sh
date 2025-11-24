@@ -19,6 +19,9 @@ git clone https://github.com/stake25/arch-dotfiles.git .config/
 # setup profile reference
 cp ~/.config/zshrc/zshrc ~/.zshrc
 
+# change to ssh url
+# git remot set-url origin git@github.com:stake25/arch-dotfiles.git
+
 # change shell
 chsh -s /bin/zsh
 echo "Restart your terminal session to see the changes"

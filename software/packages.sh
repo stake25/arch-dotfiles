@@ -36,4 +36,9 @@ flatpak_packages=(
   "com.heroicgameslauncher.hgl"
   "com.bitwarden.desktop"
   "us.zoom.Zoom"
+  "com.discordapp.Discord"
+)
+
+custom_packages=(
+  "starship"
 )
