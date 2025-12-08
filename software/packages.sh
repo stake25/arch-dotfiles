@@ -15,6 +15,7 @@ pacman_packages=(
   "syncthing"
   "dosfstools"
   "calibre"
+  "tailscale"
 )
 
 yay_packages=(
@@ -37,6 +38,8 @@ flatpak_packages=(
   "com.bitwarden.desktop"
   "us.zoom.Zoom"
   "com.discordapp.Discord"
+  "org.onlyoffice.desktopeditors"
+  "org.kde.ktorrent"
 )
 
 custom_packages=(
