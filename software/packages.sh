@@ -48,5 +48,6 @@ flatpak_packages=(
 )
 
 custom_packages=(
+  "docker"
   "starship"
 )
